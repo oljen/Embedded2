@@ -1,0 +1,40 @@
+Dependencies for Project 'Lab2', Target 'KL28Z': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\src\main.c)(0x67198CC6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL28Z512VLL7-I./RTE/_KL28Z-IC:/Users/oj09i/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/oj09i/AppData/Local/Arm/Packs/NXP/MKL28Z7_DFP/11.0.1-D__UVISION_VERSION="541" -DCPU_MKL28Z512VLL7 -D_RTE_-o ./objects/main.o -MMD)
+I (RTE\Device\MKL28Z512VLL7\MKL28Z7.h)(0x671988F4)
+I (C:\Users\oj09i\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C3AF8)
+I (RTE\Device\MKL28Z512VLL7\system_MKL28Z7.h)(0x671988F4)
+I (src\..\inc\SysTick.h)(0x671988F4)
+I (src\..\inc\button.h)(0x671988F4)
+I (src\..\inc\mask.h)(0x671988F4)
+I (src\..\inc\led.h)(0x671988F4)
+F (.\src\SysTick.c)(0x671988F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL28Z512VLL7-I./RTE/_KL28Z-IC:/Users/oj09i/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/oj09i/AppData/Local/Arm/Packs/NXP/MKL28Z7_DFP/11.0.1-D__UVISION_VERSION="541" -DCPU_MKL28Z512VLL7 -D_RTE_-o ./objects/systick.o -MMD)
+I (RTE\Device\MKL28Z512VLL7\MKL28Z7.H)(0x671988F4)
+I (C:\Users\oj09i\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C3AF8)
+I (RTE\Device\MKL28Z512VLL7\system_MKL28Z7.h)(0x671988F4)
+I (src\..\inc\SysTick.h)(0x671988F4)
+F (.\src\button.c)(0x671988F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL28Z512VLL7-I./RTE/_KL28Z-IC:/Users/oj09i/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/oj09i/AppData/Local/Arm/Packs/NXP/MKL28Z7_DFP/11.0.1-D__UVISION_VERSION="541" -DCPU_MKL28Z512VLL7 -D_RTE_-o ./objects/button.o -MMD)
+I (RTE\Device\MKL28Z512VLL7\MKL28Z7.h)(0x671988F4)
+I (C:\Users\oj09i\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C3AF8)
+I (RTE\Device\MKL28Z512VLL7\system_MKL28Z7.h)(0x671988F4)
+I (src\..\inc\button.h)(0x671988F4)
+I (src\..\inc\mask.h)(0x671988F4)
+F (.\src\led.c)(0x671988F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL28Z512VLL7-I./RTE/_KL28Z-IC:/Users/oj09i/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/oj09i/AppData/Local/Arm/Packs/NXP/MKL28Z7_DFP/11.0.1-D__UVISION_VERSION="541" -DCPU_MKL28Z512VLL7 -D_RTE_-o ./objects/led.o -MMD)
+I (RTE\Device\MKL28Z512VLL7\MKL28Z7.h)(0x671988F4)
+I (C:\Users\oj09i\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C3AF8)
+I (RTE\Device\MKL28Z512VLL7\system_MKL28Z7.h)(0x671988F4)
+I (src\..\inc\led.h)(0x671988F4)
+I (src\..\inc\mask.h)(0x671988F4)
+F (RTE/Device/MKL28Z512VLL7/MKL28Z512xxx7_flash.scf)(0x671988F4)()
+F (RTE/Device/MKL28Z512VLL7/MKL28Z512xxx7_ram.scf)(0x671988F4)()
+F (RTE/Device/MKL28Z512VLL7/MKL28Z7.h)(0x671988F4)()
+F (RTE/Device/MKL28Z512VLL7/MKL28Z7_features.h)(0x671988F4)()
+F (RTE/Device/MKL28Z512VLL7/fsl_device_registers.h)(0x671988F4)()
+F (RTE/Device/MKL28Z512VLL7/startup_MKL28Z7.s)(0x671988F4)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/MKL28Z512VLL7-I./RTE/_KL28Z-IC:/Users/oj09i/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/oj09i/AppData/Local/Arm/Packs/NXP/MKL28Z7_DFP/11.0.1-Wa,armasm,--pd,"__UVISION_VERSION SETA 541" -Wa,armasm,--pd,"CPU_MKL28Z512VLL7 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_mkl28z7.o)
+F (RTE/Device/MKL28Z512VLL7/system_MKL28Z7.c)(0x671988F4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/MKL28Z512VLL7-I./RTE/_KL28Z-IC:/Users/oj09i/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/oj09i/AppData/Local/Arm/Packs/NXP/MKL28Z7_DFP/11.0.1-D__UVISION_VERSION="541" -DCPU_MKL28Z512VLL7 -D_RTE_-o ./objects/system_mkl28z7.o -MMD)
+I (RTE\Device\MKL28Z512VLL7\fsl_device_registers.h)(0x671988F4)
+I (RTE\Device\MKL28Z512VLL7\MKL28Z7.h)(0x671988F4)
+I (C:\Users\oj09i\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664C3AF8)
+I (RTE\Device\MKL28Z512VLL7\system_MKL28Z7.h)(0x671988F4)
+I (RTE\Device\MKL28Z512VLL7\MKL28Z7_features.h)(0x671988F4)
+F (RTE/Device/MKL28Z512VLL7/system_MKL28Z7.h)(0x671988F4)()

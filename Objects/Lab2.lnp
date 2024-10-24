@@ -1,0 +1,11 @@
+--cpu Cortex-M0+ --scatter "./RTE/Device/MKL28Z512VLL7/MKL28Z512xxx7_flash.scf"
+".\objects\main.o"
+".\objects\systick.o"
+".\objects\button.o"
+".\objects\led.o"
+".\objects\startup_mkl28z7.o"
+".\objects\system_mkl28z7.o"
+--strict --scatter ".\RTE\Device\MKL28Z512VLL7\MKL28Z512xxx7_flash.scf"
+--load_addr_map_info --summary_stderr --info summarysizes --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Lab2.map" -o .\Objects\Lab2.axf
